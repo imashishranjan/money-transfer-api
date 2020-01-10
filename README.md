@@ -23,7 +23,7 @@ accounts with number 1 and 2.
 - Get all accounts  `http://localhost:9200/accounts` (GET)
 - Get particular accounts - `http://localhost:9200/account/{accountId}` (GET)
 - Create account - `localhost:9200/account/create?name={Name}&balance={Balance}` (POST) 
-- Transfer - `localhost:9200/account/withdraw/{fromAccount}?toAccountNumber={toAccount}&amount={Amount}`(PUT) where 
+- Transfer - `localhost:9200/account/withdraw/{fromAccount}?toAccountNumber={toAccount}&amount={Amount}`(PUT)
 
 
 
