@@ -1,24 +1,15 @@
 package com.transfer.app.account;
 
 import com.transfer.app.exception.InsufficientBalanceException;
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.runners.MockitoJUnitRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-@RunWith(MockitoJUnitRunner.class)
 public class AccountServiceTest {
 
-    private AccountService accountService;
-
-    @Before
-    public void setup() {
-        accountService = new AccountService(); // This initialises the static map from service class
-    }
+    private final AccountService accountService = new AccountService();
 
     @Test
     public void should_fetch_accounts() {

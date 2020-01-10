@@ -13,7 +13,7 @@ import static java.lang.String.valueOf;
 
 public class AccountService {
 
-    private static Map<String, Account> accounts = new HashMap<>(
+    private Map<String, Account> accounts = new HashMap<>(
             Map.of("1", new Account("1", "John", 10000), "2", new Account("2", "Rohan", 2000)
             ));
 

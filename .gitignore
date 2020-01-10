@@ -5,6 +5,7 @@ target/
 .settings/
 logs/
 
+dependency-reduced-pom.xml
 
 ### IntelliJ IDEA ###
 .idea
